@@ -2,7 +2,6 @@ const _ = require('underscore');
 const assert = require('assert');
 const expect = require('chai').expect;
 const hnc = require('../src/hngcsnt.js');
-const cmap = require('../src/charmap.js').charmap;
 
 const testcase = [
   { sentence : '각퉵후아회ABCDabcd', expect : 'ㄱㅌㅎㅇㅎ',  expect2: 'ㅏㅞㅜㅏㅚ', expect3: 'gthah' },
