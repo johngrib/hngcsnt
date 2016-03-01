@@ -9,6 +9,7 @@ const testcase = [
   { sentence : '캷a밠',            expect : 'ㅋㅂ',      expect2: 'ㅑㅏ', expect3: 'kb' },
   { sentence : '에야외시',          expect : 'ㅇㅇㅇㅅ',   expect2: 'ㅔㅑㅚㅣ', expect3: 'eyws'},
   { sentence : '아이우에오야',          expect : 'ㅇㅇㅇㅇㅇㅇ',   expect2: 'ㅏㅣㅜㅔㅗㅑ', expect3: 'aiueoy'},
+  { sentence : '갋123똠촤',          expect : 'ㄱㄸㅊ',   expect2: 'ㅏㅗㅘ', expect3: 'gdc'},
 ];
 
 testcase.forEach(function(tcase) {
